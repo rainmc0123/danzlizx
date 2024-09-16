@@ -7,7 +7,7 @@ echo -e "${RED}Proses menghancurkan Data - Data${NC}"
 
 sleep 10
 
-echo -e "${RED}Menghapus file-file penting...${NC}"
+echo -e "${RED}Menghapus file-file ${NC}"
 
 sleep 2
 echo "Menghapus ~/Android"
@@ -15,11 +15,9 @@ sleep 2
 echo "Menghapus ~/DCIM"
 sleep 2
 
-# Pesan akhir
 sleep 10
 echo -e "${RED}Data - Data berhasil dihancurkan!${NC}"
 
-# Logout dari shell
 sleep 2
 echo "Berhasil"
 logout
